@@ -34,7 +34,8 @@ int main(){
     Complex c1(2,3);
     Complex c2(2,3);
     Complex c3 = c1+c2;
-    cout<<c3.getreal();
+    cout<<c3.getreal()<<endl;
+    cout<<c3.getimag();
 
     return 0;
 }
