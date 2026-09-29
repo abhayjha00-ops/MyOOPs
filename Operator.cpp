@@ -13,6 +13,9 @@ public:
     int getreal(){
         return real;
     }
+    int getimag(){
+        return imag;
+    }
 
     friend Complex operator+(Complex c1, Complex c2);
 };
