@@ -48,8 +48,5 @@ int main(){
         cout<<"The sum of My Array between "<<start<<" index and "<<end<<" index is : ";
         cout<<betSum<<endl;
     }
-    
-
-
     return 0;
 }
